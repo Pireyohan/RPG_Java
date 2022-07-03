@@ -67,6 +67,15 @@ public class Story {
     }
 
     public static void printThirdActIntro() {
+        Gamelogic.clearConsole();
+        Gamelogic.printSeperator(1);
+        System.out.println("Act 3 Intro");
+        Gamelogic.printSeperator(1);
+        System.out.println(" You see the huge black castle in front of you  ");
+        System.out.println("As you sta,d inf front of the gates , you know there's no going back");
+        System.out.println(" You 're disguised as a mercenary and enter the castle . You don't know how much time you have left before someone");
+        System.out.println("All you can do know is fight for you life and pray to come out as the winner ....");
+        Gamelogic.anythingToContinue();
     }
 
     public static void printThirdActOutro() {
