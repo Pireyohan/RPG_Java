@@ -47,10 +47,10 @@ public class Story {
         Gamelogic.printSeperator(1);
         System.out.println("Act2 Intro");
         Gamelogic.printSeperator(1);
-        System.out.println(" You dit it! you crossed the everlasting moutains and you're still alive");
-        System.out.println(
-                "as you climb down the last hill, you're more than happy to feel hard ground undermeath your feet again");
-        System.out.println("\nYou feel empowered and the experience you gained allows you to learn antoher trait !");
+        System.out.println(" You begin travelling across the landlines of this once sell populated countryside");
+        System.out.println( "You collected some gold from the monsters you killed along the way");
+        System.out.println("Luckily you kown that every onece in a while a travelling tradercomes acress these landlines");
+        System.out.println("You kown exactly where the castle of the evil emperor is , but you to cross therse haunted landlins first...");
         Gamelogic.anythingToContinue();
     }
 
