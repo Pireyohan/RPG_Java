@@ -43,6 +43,15 @@ public class Story {
     }
 
     public static void printSecondActIntro() {
+        Gamelogic.clearConsole();
+        Gamelogic.printSeperator(1);
+        System.out.println("Act2 Intro");
+        Gamelogic.printSeperator(1);
+        System.out.println(" You dit it! you crossed the everlasting moutains and you're still alive");
+        System.out.println(
+                "as you climb down the last hill, you're more than happy to feel hard ground undermeath your feet again");
+        System.out.println("\nYou feel empowered and the experience you gained allows you to learn antoher trait !");
+        Gamelogic.anythingToContinue();
     }
 
     public static void printSecondActOutro() {
