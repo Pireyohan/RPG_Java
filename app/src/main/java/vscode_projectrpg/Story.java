@@ -61,6 +61,15 @@ public class Story {
     }
 
     public static void printThirdActOutro() {
+        Gamelogic.clearConsole();
+        Gamelogic.printSeperator(1);
+        System.out.println("Act3 Outro");
+        Gamelogic.printSeperator(1);
+        System.out.println(" You came so far. You defeated all of the Evil Emperor's minions");
+        System.out.println("As you stand in front of the door to his throne room , you know there's no going back.");
+        System.out.println(" YOu recall you lost power and restore your health.");
+        System.out.println("You get the chance to learn a last trait before entering the throne room");
+        Gamelogic.anythingToContinue();
     }
 
     public static void printFourActionIntro() {
