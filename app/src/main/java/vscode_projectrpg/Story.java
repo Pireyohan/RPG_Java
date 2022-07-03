@@ -55,6 +55,15 @@ public class Story {
     }
 
     public static void printSecondActOutro() {
+        Gamelogic.clearConsole();
+        Gamelogic.printSeperator(1);
+        System.out.println("Act 2 OUtro");
+        Gamelogic.printSeperator(1);
+        System.out.println(" You managed to cross these haunted landlines and you're still alive! ");
+        System.out.println("You are just a few hours away from your final destination, the castle of Evil EMperor.");
+        System.out.println("You know that you probably can't rest there, so you make a last break to restore some health");
+        System.out.println("After all you've seen you feel empowered to learn another trait");
+        Gamelogic.anythingToContinue();
     }
 
     public static void printThirdActIntro() {
